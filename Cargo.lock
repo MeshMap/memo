@@ -6564,20 +6564,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "spl-memo"
-version = "6.0.0"
-dependencies = [
- "solana-account-info",
- "solana-instruction",
- "solana-msg",
- "solana-program-entrypoint",
- "solana-program-error",
- "solana-program-test",
- "solana-pubkey",
- "solana-sdk",
-]
-
-[[package]]
 name = "spl-memo-client"
 version = "0.1.0"
 dependencies = [
@@ -6592,6 +6578,20 @@ dependencies = [
  "solana-program-test",
  "solana-sdk",
  "thiserror 2.0.11",
+]
+
+[[package]]
+name = "spl-spatial-memo"
+version = "6.0.0"
+dependencies = [
+ "solana-account-info",
+ "solana-instruction",
+ "solana-msg",
+ "solana-program-entrypoint",
+ "solana-program-error",
+ "solana-program-test",
+ "solana-pubkey",
+ "solana-sdk",
 ]
 
 [[package]]
